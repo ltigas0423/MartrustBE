@@ -1,4 +1,4 @@
-package com.example.MarTrustBE.data;
+package com.example.martrustbe.data;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package com.example.MarTrustBE;
+package com.example.martrustbe;
 
 import com.google.common.collect.Maps;
 

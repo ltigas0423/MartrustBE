@@ -1,6 +1,6 @@
-package com.example.MarTrustBE.resource;
+package com.example.martrustbe.resource;
 
-import com.example.MarTrustBE.service.ExchangeRateService;
+import com.example.martrustbe.service.ExchangeRateService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;

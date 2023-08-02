@@ -1,4 +1,4 @@
-package com.example.MarTrustBE;
+package com.example.martrustbe;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

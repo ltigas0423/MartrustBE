@@ -1,8 +1,8 @@
-package com.example.MarTrustBE.service.impl;
+package com.example.martrustbe.service.impl;
 
-import com.example.MarTrustBE.data.ExchangeRateLatestResponse;
-import com.example.MarTrustBE.feign.ExchangeRatesClient;
-import com.example.MarTrustBE.service.ExchangeRateService;
+import com.example.martrustbe.data.ExchangeRateLatestResponse;
+import com.example.martrustbe.feign.ExchangeRatesClient;
+import com.example.martrustbe.service.ExchangeRateService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

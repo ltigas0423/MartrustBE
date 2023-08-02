@@ -1,4 +1,4 @@
-package com.example.MarTrustBE.service;
+package com.example.martrustbe.service;
 
 import java.util.Map;
 
