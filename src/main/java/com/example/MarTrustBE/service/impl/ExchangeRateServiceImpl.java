@@ -1,10 +1,8 @@
 package com.example.MarTrustBE.service.impl;
 
-import com.example.MarTrustBE.data.ExchangeRateConvertResponse;
 import com.example.MarTrustBE.data.ExchangeRateLatestResponse;
 import com.example.MarTrustBE.feign.ExchangeRatesClient;
 import com.example.MarTrustBE.service.ExchangeRateService;
-import com.google.common.collect.Maps;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -31,7 +29,7 @@ public class    ExchangeRateServiceImpl implements ExchangeRateService {
 
     @Override
     public Double getExchangeRate(String from, String to) {
-        ExchangeRateLatestResponse response = exchangeRatesClient.getLatest(accessKey);
+//        ExchangeRateLatestResponse response = exchangeRatesClient.getLatest(accessKey);
 
         return convertUsingLatest(from, to, 1d);
     }

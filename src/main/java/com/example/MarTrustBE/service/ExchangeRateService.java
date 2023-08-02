@@ -1,8 +1,5 @@
 package com.example.MarTrustBE.service;
 
-import com.example.MarTrustBE.data.ExchangeRateDTO;
-
-import java.util.List;
 import java.util.Map;
 
 public interface ExchangeRateService {

@@ -56,8 +56,6 @@ public class ExchangeRateServiceImplTest {
         assertEquals(exchangeRateService.convert("USD", "PHP", 25.5), convertRates("USD", "PHP", 25.5));
     }
 
-
-    @BeforeAll
     private ExchangeRateLatestResponse getTempResponse() {
         ExchangeRateLatestResponse response = new ExchangeRateLatestResponse();
         response.setRates(ExchangeRatesUtil.getRates());
