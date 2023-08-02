@@ -1,0 +1,6 @@
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+access-key: e4e975cbb80be6bc5c0fdbd43370be4d
